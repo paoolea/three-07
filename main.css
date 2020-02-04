@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height:  100vh;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+#menu {
+    position: fixed;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+    padding: 15px;
+    top: 25vh;
+    width: 30vw;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+#menu>button {
+    margin: 10px;
+}
+
+#audioController {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 80vw;
+    height: 100px;
+    position: fixed;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+}
